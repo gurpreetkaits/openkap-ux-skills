@@ -1,6 +1,6 @@
-# claude-ux-skills
+# openkap-ux-skills
 
-Personal collection of [Claude Code](https://claude.com/claude-code) skills focused on UX and design system workflows.
+Personal collection of [Claude Code](https://claude.com/claude-code) skills focused on UX and design system workflows for OpenKap projects.
 
 ## Skills
 
@@ -13,10 +13,10 @@ Personal collection of [Claude Code](https://claude.com/claude-code) skills focu
 Clone the repo somewhere outside `~/.claude/skills/`, then symlink each skill in:
 
 ```bash
-git clone git@github.com:gurpreetkaits/claude-ux-skills.git ~/code/claude-ux-skills
+git clone git@github.com:gurpreetkaits/openkap-ux-skills.git ~/code/openkap-ux-skills
 
 cd ~/.claude/skills
-ln -s ~/code/claude-ux-skills/ui-design-system ui-design-system
+ln -s ~/code/openkap-ux-skills/ui-design-system ui-design-system
 ```
 
 Claude Code picks up symlinked skills the same as local directories. Edit files in the repo, commit, and the changes are live immediately.
